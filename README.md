@@ -74,13 +74,13 @@ This graph summarizes the training process. The green lines shows the best genom
 
 ## To run the code:
 ```bash
-python main.py
+python ussp.py
 ```
 With a defined target value
 ```bash
-python main.py -target 1080
+python ussp.py -target 1080
 ```
 With a defined number of epochs
 ```bash
-python main.py -epochs 150
+python ussp.py -epochs 150
 ```
