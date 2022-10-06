@@ -1,4 +1,4 @@
-# Uset Story Scheduler  
+# User Story Scheduler  
   
 ### Instructions  
 - The assignment is developed in groups of minimum 2 and maximum 3 students.  
