@@ -43,7 +43,7 @@ In this sense and in order to carry out this representation, we speak of _story 
 
 "As a [type of user], I would like to have [this functionality] with which I can benefit [in this way]."
 
-![[https://www.datocms-assets.com/17507/1608301034-user-story-map.png?fit=max&fm=webp&q=60&w=736]]
+![image](https://user-images.githubusercontent.com/54272736/194406376-46012a63-b69a-47b3-9ac3-c33bdfebfe29.png)
 
 There are times when you have a lot of user stories that need to be done in a period of time. You also have a limited amount of developers who can do the task and many have priority other the other ones (for example time).
 
