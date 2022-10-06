@@ -60,6 +60,27 @@ The way we use to get to the optimal solution, is by crossovering the `populatio
 
 The parent represent the order of in which the tasks would be executed and the offspring would be the children genome. A slice of its data is the same as its parent and the rest of it is in this case shuffled. Then there is a small chance that a `mutation` step will ocurr which consists on shuffling the children genome. This guarantees the population to evolve while goingh through more solutions in the search space. 
 
-By the end of this process we will get a `fitted` population, but the best solution will not necessarily be among the genomes in the final population. So, through the evolution we keep track of the best genome that gives us the best result, and that is the solution that we'll take as our final answer as we see in the [script](https://github.com/Cesarmosqueira/schedule-user-stories/blob/master/main.py).
+By the end of this process we will get a `fitted` population, but the best solution will not necessarily be among the genomes in the final population. So, through the evolution we keep track of the best genome that gives us the best result, and that is the solution that we'll take as our final answer as we see in the [script](https://github.com/Cesarmosqueira/schedule-user-stories/blob/master/main.py). We also added two special feature. When the global minimum starts to repeat for a defined number of times, the whole population shuffles and starts to search a for a different result. And you can start training the population with a target result in mind and not necessarily a number of epochs
 
+## 5. Representation implementation using a programming language
 
+The results we got by executing the algorithm are the following:
+![image](https://user-images.githubusercontent.com/48858334/194429612-2028cf14-d887-4221-9fee-a6227e5336b4.png)
+
+In this plot, each row represent a different developer, each cell a task and each color would be a user story.
+
+![image](https://user-images.githubusercontent.com/48858334/194429649-0787a7f8-ec24-420b-828e-8780e661837b.png)
+This graph summarizes the training process. The green lines shows the best genome in each population and the blue dots represents the `X` values where the population has been shuffled.
+
+## To run the code:
+```bash
+python main.py
+```
+With a defined target value
+```bash
+python main.py -target 1080
+```
+With a defined number of epochs
+```bash
+python main.py -epochs 150
+```
