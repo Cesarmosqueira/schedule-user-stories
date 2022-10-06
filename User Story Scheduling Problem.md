@@ -61,6 +61,7 @@ The search space for this problem would be the ways that the user stories can be
 
 ## 4. Solution space approach and examples
 The way we use to get to the optimal solution, is by crossovering the `population`. Which we achieve by selecting the top 5 `genomes`. We can evaluate which gemomes are the best by a `fitness function` which in this case will be the `makespan` function, that returns the total delay that the order of the tasks will produce. Clearly what we're trying to do is minimze this delay. After we get the best genomes we 'reproduce' them through a simple `crossover` function.
+
 ![image](https://user-images.githubusercontent.com/48858334/194409919-b1136f4f-7ba2-4be3-af85-52ee6ba08c22.png)
 
 The parent represent the order of in which the tasks would be executed and the offspring would be the children genome. A slice of its data is the same as its parent and the rest of it is in this case shuffled. Then there is a small chance that a `mutation` step will ocurr which consists on shuffling the children genome. This guarantees the population to evolve while goingh through more solutions in the search space. 
