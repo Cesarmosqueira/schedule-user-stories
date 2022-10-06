@@ -1,0 +1,6 @@
+Total sprint time: 30
+
+Task1: 12
+Task2: 8
+Task3: 15
+Task4: 20
