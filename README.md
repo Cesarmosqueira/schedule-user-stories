@@ -70,7 +70,7 @@ The results we got by executing the algorithm are the following:
 In this plot, each row represent a different developer, each cell a task and each color would be a user story.
 
 ![image](https://user-images.githubusercontent.com/48858334/194429649-0787a7f8-ec24-420b-828e-8780e661837b.png)
-This graph summarizes the training process. The green lines shows the best genome in each population and the blue dots represents the `X` values where the population has been shuffled.
+This graph summarizes the training process. The green lines shows the best genome in each population and the blue dots represents the `X` values where the population has been shuffled. The red line shows the iterations and the best fit so far. There is a yellow x in the epochs where this value is updated.
 
 ## To run the code:
 ```bash
