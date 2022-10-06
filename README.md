@@ -1,11 +1,5 @@
 # User Story Scheduler  
   
-### Instructions  
-- The assignment is developed in groups of minimum 2 and maximum 3 students.  
-- Use a repository on GitHub or similar to store the files for your assignment.  
-- You must upload the repository compressed in zip as well as the URL of the repository.  
-- It is recommended to elaborate the documentary part using a GitHub repository and markdown files.  
-  
 ### Table of contents  
 1. Description of the problem to be solved  
 2. Motivation to solve the problem  
@@ -13,10 +7,10 @@
 4. Solution space approach and examples  
 5. Representation implementation using a programming language  
 
-### Programmers
-- Francesco Bassino u201816669
-- Cesar Mosqueira u201910750
-- Renzo Mondragón u201415624
+### Contributors
+- [Francesco Bassino](https://github.com/frany-oss) u201816669
+- [Cesar Mosqueira](https://github.com/cesarmosqueira) u201910750
+- [Renzo Mondragón](https://github.com/renxzen) u201415624
 
 
 ## 1. Description of the problem to solve
